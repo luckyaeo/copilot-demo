@@ -1,0 +1,5 @@
+/.chroma
+/.env
+/.pytest_cache
+/graph.png
+/__pycache__

@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "langgraph-rag"
+version = "0.1.0"
+description = "This project uses LangGraph to implement flow engineering for more precise responses"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+beautifulsoup4 = "4.12.3"
+langchain-community = "0.2.5"
+tiktoken = "0.7.0"
+langchainhub = "0.1.20"
+langchain = "0.2.5"
+langgraph = "0.0.69"
+tavily-python = "0.3.3"
+langchain-openai = "0.1.8"
+python-dotenv = "1.0.1"
+langchain-chroma = "0.1.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "24.4.2"
+pytest = "8.2.0"
+isort = "5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
